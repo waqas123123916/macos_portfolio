@@ -1,10 +1,11 @@
- 
+import Navbar from "@components/Navbar";
+
 const App = () => {
   return (
- <div>
-  <h1> welcome to my macfolio</h1>
- </div>
-  )
-}
+    <main>
+      <Navbar />
+    </main>
+  );
+};
 
-export default App
+export default App;
